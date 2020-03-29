@@ -22,10 +22,10 @@ See [MainActivity](./app/src/main/kotlin/io/github/team_sippo/mnist_grpc_android
 ```
 # goto root directory of this program
 $ cd mnist_grpc_android
-
 # run gradle
 $ ./gradlew installDist
 ```
+
 You can also use Android Studio.
 
 ## Run
