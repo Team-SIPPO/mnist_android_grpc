@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "io.github.team_sippo.mnist_grpc_android.proto.helloworld";
+
+package helloworld;
+
+service Greeter {
+    // the service receive Hello Request and return HelloReply
+    rpc SayHello (HelloRequest) returns (HelloReply) {}
+}
+
+// definition of HelloRequest
+message HelloRequest {
+    string name = 1;
+}
+
+// definition of HelloReply
+message HelloReply {
+    string message = 1;
+}
